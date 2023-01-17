@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+}
+
+/* Styling for main-div */
+.main-div{
+  margin:0px 10px;
+  border:0.5px solid blue;
+  margin-bottom: 100px;
+  padding-bottom: 50px;
+}
+
+/* Styling for navbar */
+.navbar-div{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width:100%;
+  height:70px;
+  background-color:grey;
+  color:white;
+  align-items:center;
+  font-size: large;
+}
+
+/* Styling for navbar-sub-div-1 */
+.navbar-sub-div-1{
+  width:40%;
+  text-align: center;
+}
+
+.navbar-sub-div-1 > span{
+  margin:10px;
+  padding:10px;
+}
+
+
+/* Styling for navbar-sub-div-2 */
+.navbar-sub-div-2{
+  width:50%;
+  text-align: right;
+}
+.navbar-sub-div-2 > span{
+  padding:5px;
+}
+
+
+/* Styling for middle-headings-div */
+.middle-headings-div{
+  width:100%;
+  text-align: center;
+  background-color: rgb(32, 29, 29);
+  padding: 50px 0px;
+  color:white;
+  margin-bottom:50px;  
+}
+
+.middle-heading-2{
+  color:whitesmoke;
+}
+
+
+/* Styling for div-containing-all-products which holds all the products */
+.div-containing-all-products{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding:20px;
+  row-gap: 50px;
+  column-gap: 50px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Styling for each-product-div which displays single product */
+.each-product-div{
+  margin:20px;
+  border:1px solid grey;
+  padding-bottom:10px;
+  text-align:center;
+}
+
+/* Styling for category heading */
+.product-category-h{
+  margin-top:20px;
+}
+
+/* Styling for rating-scale span */
+.rating-p > span{
+  font-size: small;
+
+}
+
+/* Styling for price of product */
+.sale-special-price-p > span{
+  margin:0px 10px;
+}
+
+.sale-special-price-p span:nth-child(1){
+  text-decoration: line-through;
+  opacity:0.7;
+}
+
+.remining-price-p > span{
+  margin:0px 5px;
+}
+
+
+/* Styling for button */
+button{
+  border: 0.5px solid black;
+  background-color: white;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+/* Styling for button when it is hovered */
+button:hover{
+  cursor:pointer;
+}
+
+
+
+/* Media query for the screens below 400px */
+@media screen and (max-width:400px){
+  .navbar-div{
+    flex-direction:column;
+    height:80px;
+  }
+
+  .navbar-sub-div-1{
+    width:100%;
+    text-align: center;
+    margin: 5px 0px;
+  }
+  
+  .navbar-sub-div-2{
+    width:100%;
+    text-align: center;
+    margin: 5px 0px;
+  }
+  
+}
+

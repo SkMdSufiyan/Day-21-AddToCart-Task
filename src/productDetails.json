@@ -1,0 +1,39 @@
+[
+    {"id":1,"title":"Product-1","old-price":20,"price":18,"rating":4.69,"stock":94,"category":"Special Item","image":"https://via.placeholder.com/600/92c952"},
+    
+
+    {"id":2,"title":"Product-2","old-price":40,"price":80,"stock":34,"category":"Fancy Product","image":"https://via.placeholder.com/600/771796"},
+    
+
+    {"id":3,"title":"Product-3","old-price":50,"price":25,"rating":4.09,"stock":36,"category":"Sale Item","image":"https://via.placeholder.com/600/24f355"},
+    
+
+    {"id":4,"title":"Product-4","old-price":30,"price":20,"rating":4.3,"stock":123,"category":"Special Item","image":"https://via.placeholder.com/600/d32776"},
+    
+
+    {"id":5,"title":"Product-5","price":18,"rating":4.09,"stock":32,"category":"Popular Item","image":"https://via.placeholder.com/600/f66b97"},
+    
+
+    {"id":6,"title":"Product-6","old-price":20,"price":15,"rating":4.57,"stock":83,"category":"Special Item","image":"https://via.placeholder.com/600/56a8c2"},
+    
+
+    {"id":7,"title":"Product-7","old-price":35,"price":30,"rating":4.25,"stock":50,"category":"Special Item","image":"https://via.placeholder.com/600/b0f7cc"},
+    
+
+    {"id":8,"title":"Product-8","old-price":20,"price":19,"rating":4.43,"stock":68,"category":"Sale Item","image":"https://via.placeholder.com/600/54176f"},
+    
+    
+    {"id":9,"title":"Product-9","old-price":40,"price":60,"rating":4.54,"stock":96,"category":"Fancy Product","image":"https://via.placeholder.com/600/51aa97"},
+    
+    
+    {"id":10,"title":"Product-10","old-price":20,"price":15,"rating":4.43,"stock":89,"category":"Sale Item","image":"https://via.placeholder.com/600/810b14"},
+    
+    
+    {"id":11,"title":"Product-11","price":13,"rating":4.26,"stock":65,"category":"Popular Item", "image":"https://via.placeholder.com/600/197d29"},
+    
+    
+    {"id":12,"title":"Product-12","old-price":40,"price":30,"rating":4,"stock":52,"category":"Sale Item","image":"https://via.placeholder.com/600/66b7d2"}
+]
+
+
+
